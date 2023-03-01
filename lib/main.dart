@@ -61,10 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
   void _incrementCounter() {
     setState(() {
       _counter++;
-      if(_counter > 10){
 
-      }
-      
       //percobaan
       if(_counter%2 != 0){
         _text1 += '$_counter, ';
@@ -156,22 +153,22 @@ class _MyHomePageState extends State<MyHomePage> {
               _text1,
               style: Theme.of(context).textTheme.headline6,
             ),
-            // Text(
-            //   latihan,
-            //   style: Theme.of(context).textTheme.headline4,
-            // ),
-            // Text(
-            //   _text2,
-            //   style: Theme.of(context).textTheme.headline6,
-            // ),
-            // Text(
-            //   tugas,
-            //   style: Theme.of(context).textTheme.headline4,
-            // ),
-            // Text(
-            //   _text3,
-            //   style: Theme.of(context).textTheme.headline6,
-            // ),
+            Text(
+              latihan,
+              style: Theme.of(context).textTheme.headline4,
+            ),
+            Text(
+              _text2,
+              style: Theme.of(context).textTheme.headline6,
+            ),
+            Text(
+              tugas,
+              style: Theme.of(context).textTheme.headline4,
+            ),
+            Text(
+              _text3,
+              style: Theme.of(context).textTheme.headline6,
+            ),
           ],
         ),
       ),
